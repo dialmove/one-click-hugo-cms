@@ -7,7 +7,7 @@ public_folder: "img"
 collections: # A list of collections the CMS should be able to edit
   - name: "manualgb"
     label: "manualgb"
-    folder: "site/content/GoalBus"
+    folder: "site/content/GoalBus/FicherosMD"
     create: true
     fields: 
       - {label: "Título", name: "titulo", widget: "string", required: false }
