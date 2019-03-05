@@ -4,15 +4,16 @@
 		<h2 class="f2 b lh-title mb3">GoalBus</h1>
 
 		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
-			{{ range first 4 (where .Data.Pages "Type" "manualgb") }}
+			{{ range first 4 (where .Data.manualgb "Type" "manualgb") }}
 				<div class="ph1-ns w-50-ns flex">
+					item
 					{{ .Render "li" }}
 				</div>
 			{{ end }}
 		</div>
 
 		<div class="tc">
-			<a href="/post" class="btn raise">Read more</a>
+			<a href="/manualesgb" class="btn raise">Read more</a>
 		</div>
 
 	</div>
